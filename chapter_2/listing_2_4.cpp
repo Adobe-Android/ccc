@@ -1,7 +1,7 @@
 #include <cstdio>
 
 int main() {
-  char x = 'M';
-  wchar_t y = L'Z';
+  auto const x = 'M';
+  auto const y = L'Z';
   printf("Windows binaries start with %c%lc.\n", x, y);
 }

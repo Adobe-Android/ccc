@@ -1,9 +1,9 @@
 #include <cstdio>
 
 int main() {
-  unsigned long maximum = 0;
-  unsigned long values[] = { 10, 50, 20, 40, 0 };
-  for(unsigned long value : values) {
+  auto maximum = 0ul;
+  unsigned long const values[] = { 10, 50, 20, 40, 0 };
+  for(auto value : values) {
     if(value > maximum)
       maximum = value;
   }

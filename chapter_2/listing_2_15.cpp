@@ -3,7 +3,7 @@
 enum class Race { Dinan, Teklan, Ivyn, Moiran, Camite, Julian, Aidan };
 
 int main() {
-  Race race = Race::Dinan;
+  auto const race = Race::Dinan;
   switch(race) {
   case Race::Dinan: {
     printf("You work hard.");

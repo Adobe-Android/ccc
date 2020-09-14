@@ -1,8 +1,8 @@
 #include <cstdio>
 
 int main() {
-  unsigned int a = 3669732608;
+  auto const a = 3669732608u;
   printf("Yabba %x!\n", a);
-  unsigned int b = 69;
+  auto const b = 69u;
   printf("There are %u,%o leaves here.\n", b, b);
 }

@@ -1,7 +1,7 @@
 #include <cstdio>
 
 struct ClockOfTheLongNow {
-  void add_year() {
+  auto add_year() {
     year++;
   }
   int year;

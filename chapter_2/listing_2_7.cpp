@@ -1,8 +1,8 @@
 #include <cstdio>
 
 int main() {
-  bool t = true;
-  bool f = false;
+  auto const t = true;
+  auto const f = false;
   printf("!true: %d\n", !t);
   printf("true  &&  false: %d\n", t && f);
   printf("true  && !false: %d\n", t && !f);

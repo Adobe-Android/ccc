@@ -1,10 +1,10 @@
 ﻿#include <cstdio>
 
 int main() {
-  unsigned short a = 0b10101010;
-  printf("%hu\n", a);
-  int b = 0123;
+  auto const a = 0b10101010u;
+  printf("%u\n", a);
+  auto const b = 0123;
   printf("%d\n", b);
-  unsigned long long d = 0xFFFFFFFFFFFFFFFF;
+  auto const d = 0xFFFFFFFFFFFFFFFFull;
   printf("%llu\n", d);
 }
